@@ -1,0 +1,23 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviadanielareisenauer/mercado-liebre.git"
+  },
+  "keywords": [],
+  "author": "Flavia Daniela Reisenauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviadanielareisenauer/mercado-liebre/issues"
+  },
+  "homepage": "https://github.com/flaviadanielareisenauer/mercado-liebre#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
