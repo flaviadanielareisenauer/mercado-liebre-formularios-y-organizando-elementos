@@ -11,7 +11,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/views/home.html"));
 });
 
-
 app.listen(port, () => {
   console.log(`Puerto corriendo en ${port}\n http://localhost:${port}`);
 });
