@@ -97,17 +97,16 @@ main {
 }
 
 main section {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   margin: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 main section article {
   max-height: 450px;
-  max-width: 100x;
-  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  max-width: 100x;  
   margin: 10px auto;
   padding: 0;
   border-top: 1px solid var(--lightGrey);
@@ -193,20 +192,27 @@ footer article i {
   color: var(--lightBlue);
 }
 
+footer article i:hover {
+  color: #03264c;
+}
+
 footer article {
   margin: 50px 35px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 footer article h2 {
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--darkGrey);
 }
 
 footer article p {
   margin-top: 0;
   padding-top: 0;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--darkGrey);
 }
 
@@ -277,6 +283,10 @@ footer article p {
   main section article i {
     right: 10px;
     font-size: 15px;
+    transition: transform 2s;
+  }
+  main section article .camion:hover {
+    transform: rotate(90deg);
   }
 }
 
