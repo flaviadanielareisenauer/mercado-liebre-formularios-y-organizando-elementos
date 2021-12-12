@@ -106,7 +106,7 @@ main section {
 
 main section article {
   max-height: 450px;
-  max-width: 100x;  
+  max-width: 100x;
   margin: 10px auto;
   padding: 0;
   border-top: 1px solid var(--lightGrey);

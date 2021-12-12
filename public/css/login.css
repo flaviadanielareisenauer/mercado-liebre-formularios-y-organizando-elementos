@@ -1,0 +1,26 @@
+@import url(./styles.css);
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 80px;
+  margin: 100px auto;
+}
+
+.formLogin * {
+  margin: 15px 0;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: transparent;
+}
+
+#submit {
+  background-color: var(--lightBlue);
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 200px;
+}
